@@ -28,7 +28,7 @@ der konsole gestartet werden.
 
 %description -l pl
 Media-Detect to skrypt powsta³y z my¶l± o maksymalnym uproszczeniu
-configuracji oraz u¿yteczno¶ci skrótów klawiszowych. Z pocz±tku by³
+konfiguracji oraz u¿yteczno¶ci skrótów klawiszowych. Z pocz±tku by³
 my¶lany dla LinEAKa, ale równie dobrze mo¿na go uzywaæ np. z khotkeys
 lub z konsoli.
 
