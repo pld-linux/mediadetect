@@ -1,0 +1,19 @@
+--- media-menu	2005-11-10 13:39:18.000000000 +0100
++++ /usr/bin/media-menu	2006-01-18 15:09:45.505263512 +0100
+@@ -461,14 +461,14 @@
+ 		until [ "$MENU_COUNT" = "$APP_COUNT" ]
+ 		do
+ 			let "MENU_COUNT+=1"
+-			ENTRY_TEXT[$MENU_COUNT]="${APP_INFO[$MENU_COUNT\1]}"
++			ENTRY_TEXT[$MENU_COUNT]="${APP_INFO[`expr $MENU_COUNT*10+1`]}"
+ 		done
+ 		MENU_TEXT="Media-Detect Player and Options Menu"
+ 		RETURN_TEXT="Go To Editor Menu"
+ 		menuTemplate $APP_COUNT
+ 		if [[ $OUTPUT -le $APP_COUNT ]]
+ 		then
+-			MENU_CMD="${APP_INFO[$OUTPUT\2]#prog$OUTPUT }"
++			MENU_CMD="${APP_INFO[`expr $OUTPUT*10+2`]#prog$OUTPUT }"
+ 			$MENU_CMD &
+ 			exit 0
+ 		elif [ "$OUTPUT" = "$RETURN_OPTION" ]
