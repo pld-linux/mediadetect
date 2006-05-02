@@ -11,6 +11,7 @@ Source0:	http://www.kde-apps.org/content/files/9820-%{name}-%{version}.tar.gz
 Patch0:		%{name}_bash3.patch
 URL:		http://www.kde-apps.org/content/show.php?content=9820
 BuildRequires:	rpmbuild(macros) >= 1.228
+Requires:	kdebase-kdialog
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,7 +21,7 @@ LinEAK, but can be called by any shortcuts or applications you like -
 such as khotkeys - or executed from the command line.
 
 %description -l de
-Media-Detect ist ein Script dass entstanden ist um die configuration
+Media-Detect ist ein Skript dass entstanden ist um die konfiguration
 und benutzung von Shortcuts maximal zu vereinfachen. Es wurde
 geschrieben um es mit LinEAK zu kombinieren, aber jedes andere
 Shortcut Programm - wie z.B. khotkeys - tut es auch, es kann auch von
