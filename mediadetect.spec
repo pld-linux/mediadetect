@@ -1,6 +1,6 @@
 Summary:	Media-Detect - media detecting scripts
 Summary(de):	Media-Detect - Media erkennungs Scripts
-Summary(pl):	Media-Detect - scrypty wykrywania mediów
+Summary(pl):	Media-Detect - skrypty do wykrywania mediów
 Name:		Media-Detect
 Version:	0.55
 Release:	1
@@ -30,7 +30,7 @@ der konsole gestartet werden.
 %description -l pl
 Media-Detect to skrypt powsta³y z my¶l± o maksymalnym uproszczeniu
 konfiguracji oraz u¿yteczno¶ci skrótów klawiszowych. Z pocz±tku by³
-my¶lany dla LinEAKa, ale równie dobrze mo¿na go uzywaæ np. z khotkeys
+my¶lany dla LinEAKa, ale równie dobrze mo¿na go u¿ywaæ np. z khotkeys
 lub z konsoli.
 
 %prep
@@ -40,8 +40,8 @@ lub z konsoli.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
-install media-detect $RPM_BUILD_ROOT%{_bindir}/
-install media-menu $RPM_BUILD_ROOT%{_bindir}/
+install media-detect $RPM_BUILD_ROOT%{_bindir}
+install media-menu $RPM_BUILD_ROOT%{_bindir}
 install configs/*.config $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %clean
