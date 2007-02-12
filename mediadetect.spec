@@ -1,6 +1,6 @@
 Summary:	Media-Detect - media detecting scripts
-Summary(de):	Media-Detect - Media erkennungs Scripts
-Summary(pl):	Media-Detect - skrypty do wykrywania mediÛw
+Summary(de.UTF-8):   Media-Detect - Media erkennungs Scripts
+Summary(pl.UTF-8):   Media-Detect - skrypty do wykrywania medi√≥w
 Name:		Media-Detect
 Version:	0.55
 Release:	1
@@ -20,17 +20,17 @@ more powerful and easier to configure. It is intended for use with
 LinEAK, but can be called by any shortcuts or applications you like -
 such as khotkeys - or executed from the command line.
 
-%description -l de
+%description -l de.UTF-8
 Media-Detect ist ein Skript dass entstanden ist um die konfiguration
 und benutzung von Shortcuts maximal zu vereinfachen. Es wurde
 geschrieben um es mit LinEAK zu kombinieren, aber jedes andere
 Shortcut Programm - wie z.B. khotkeys - tut es auch, es kann auch von
 der konsole gestartet werden.
 
-%description -l pl
-Media-Detect to skrypt powsta≥y z my∂l± o maksymalnym uproszczeniu
-konfiguracji oraz uøyteczno∂ci skrÛtÛw klawiszowych. Z pocz±tku by≥
-my∂lany dla LinEAKa, ale rÛwnie dobrze moøna go uøywaÊ np. z khotkeys
+%description -l pl.UTF-8
+Media-Detect to skrypt powsta≈Çy z my≈õlƒÖ o maksymalnym uproszczeniu
+konfiguracji oraz u≈ºyteczno≈õci skr√≥t√≥w klawiszowych. Z poczƒÖtku by≈Ç
+my≈õlany dla LinEAKa, ale r√≥wnie dobrze mo≈ºna go u≈ºywaƒá np. z khotkeys
 lub z konsoli.
 
 %prep
