@@ -1,6 +1,6 @@
 Summary:	Media-Detect - media detecting scripts
-Summary(de.UTF-8):   Media-Detect - Media erkennungs Scripts
-Summary(pl.UTF-8):   Media-Detect - skrypty do wykrywania mediów
+Summary(de.UTF-8):	Media-Detect - Media erkennungs Scripts
+Summary(pl.UTF-8):	Media-Detect - skrypty do wykrywania mediów
 Name:		Media-Detect
 Version:	0.55
 Release:	1
